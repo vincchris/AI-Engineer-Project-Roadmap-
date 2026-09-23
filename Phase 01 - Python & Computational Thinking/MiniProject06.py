@@ -20,4 +20,5 @@ while True:
   if user_input == "1":
     print("== Add Contact ==")
     name_input = str(input("Name : "))
-    phone_input
+    phone_input = int(input("Number : "))
+    
