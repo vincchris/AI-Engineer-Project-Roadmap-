@@ -1,3 +1,5 @@
+# Mini Project 06 — Contact Book
+
 contacts = []
 
 while True:

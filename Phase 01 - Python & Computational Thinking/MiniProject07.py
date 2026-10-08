@@ -1,3 +1,5 @@
+# Mini Project 07 — Expense Tracker
+
 total = []
 
 while True:

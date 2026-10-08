@@ -1,3 +1,5 @@
+# Mini Project 08 — Inventory Management
+
 stocks = []
 product = []
 
