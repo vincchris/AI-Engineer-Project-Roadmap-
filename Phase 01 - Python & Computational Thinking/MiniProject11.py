@@ -25,3 +25,11 @@ if len(numbers) > 0:
 
   print(f"List of Numbers : {numbers}")
   print(f"Total of Numbers : {total_number}")
+  print(f"Total Count     : {len(numbers)}")
+  print(f"Total Average   : {average_number}")
+
+elif len(number) > 0:
+  print(f"The Smaller Number : {min(numbers)}")
+  print(f"The Largest Number : {max(numbers)}")
+else:
+    print("\nTidak ada angka yang dimasukkan.")
