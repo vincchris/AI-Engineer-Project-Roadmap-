@@ -7,7 +7,7 @@ print("Type 'Exit' or space for stoping and return the result")
 while True:
   user_input = input("Input a Number : ").strip()
 
-  if user_input == "" and user_input.lower() == "stop":
+  if user_input == "" or user_input.lower() == "stop":
     break
 
   try:
@@ -19,6 +19,18 @@ while True:
 if len(numbers) > 0:
   total_number = sum(numbers)
   average_number = total_number / len(numbers)
+  smallest_number = min(numbers)
+  highest_number = max(numbers)
+
+  odd_number = 0
+  even_number = 0
+
+  for num in numbers:
+    if num % 2 == 0:
+      even_number += 1
+    else:
+      odd_number += 1
+
   print("=" * 20)
   print("Number Analyzer")
   print("=" * 20)
@@ -27,9 +39,9 @@ if len(numbers) > 0:
   print(f"Total of Numbers : {total_number}")
   print(f"Total Count     : {len(numbers)}")
   print(f"Total Average   : {average_number}")
-
-elif len(number) > 0:
-  print(f"The Smaller Number : {min(numbers)}")
-  print(f"The Largest Number : {max(numbers)}")
+  print(f"The Smallest Number : {smallest_number}")
+  print(f"The Highest Number : {highest_number}")
+  print(f"Odd Number : {odd_number}")
+  print(f"Even Number : {even_number}")
 else:
     print("\nTidak ada angka yang dimasukkan.")
