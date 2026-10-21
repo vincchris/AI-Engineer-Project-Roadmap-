@@ -1,6 +1,7 @@
-# Mini Project 11 — Number Guessing
+# Mini Project 12 — Number Guessing
 
 Number = []
 
 while True:
   print("== Number Guessing ==")
+  
