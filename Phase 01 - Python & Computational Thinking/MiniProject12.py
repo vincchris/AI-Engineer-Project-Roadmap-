@@ -4,4 +4,5 @@ Number = []
 
 while True:
   print("== Number Guessing ==")
-  
+
+  Number.append()
