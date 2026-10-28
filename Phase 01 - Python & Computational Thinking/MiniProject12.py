@@ -7,3 +7,5 @@ while True:
 
   user_input = int(input())
   Number.append()
+
+  if user_input == Number:
