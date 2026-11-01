@@ -9,3 +9,4 @@ while True:
   Number.append()
 
   if user_input == Number:
+    number = []
