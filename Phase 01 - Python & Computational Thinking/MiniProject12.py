@@ -10,3 +10,5 @@ while True:
 
   if user_input == Number:
     number = []
+
+    if number[]
