@@ -12,4 +12,4 @@ while True:
     number = []
 
     if number[]:
-      print(number)
+      print(number[1])
