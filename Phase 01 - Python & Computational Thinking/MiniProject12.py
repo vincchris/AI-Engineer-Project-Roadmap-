@@ -2,17 +2,33 @@
 import random
 
 lowest_num = 1
-highest_num = 150
+highest_num = 100
+answer = 0
+guesses = 0
+is_running = True
 
-while True:
-  print("== Number Guessing ==")
+print("== Number Guessing ==")
+print(f"Please select number between {lowest_num} and {highest_num}")
 
-  answer = random.randint(lowest_num, highest_num)
-  user_input = int(input())
-  Number.append()
+while is_running:
 
-  if user_input == Number:
-    number = []
+  guess = input("Enter a Number : ")
 
-    if number[]:
-      print(number[1])
+  if guess.isdigit():
+    guess = int(guess)
+    guesses += 1
+
+    if guess < lowest_num or guess > highest_num:
+      print("The number is out of range")
+
+    elif guess < answer:
+      print("Wrong! Try Again")
+    elif guess > answer:
+      print("Wrong! Try Again")
+    else:
+      print(f"Correct! The answer was {answer}")
+      print(f"Number of guesses {guesses}")
+      is_running = False
+  else:
+    print("Invalid number")
+    print(f"Select number between {lowest_num} and {highest_num}")
