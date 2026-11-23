@@ -10,4 +10,5 @@ while True:
   if user_input == "" or user_input.lower == "stop":
     break
 
-  
+if len(user_input):
+  print()
