@@ -11,4 +11,5 @@ while True:
     break
 
 if len(user_input):
+  print("=======================")
   print()
